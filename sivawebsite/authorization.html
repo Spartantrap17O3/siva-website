@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>\
+    <style>
+
+     style=background-image:url(siv.jpg)
+    </style>
+  </head>
+  <body>
+    <form class="our-form" action="index.html" method="post">
+      <fieldset>
+        <legend>Name</legend>
+        <label for="name">What is your name?</label>
+        <input type="text" name="name" min="2" max="15" placeholder="John ">
+        <br>
+        <label for="name">What is your last name</label>
+      <input type="text" name="name" placeholder="Smith">
+    </fieldset>
+    <label for="email">what is your email.</label>
+    <input type="tel" id="email" name="email" placeholder="randomdude@something.com" required>
+    <br>
+    <input type="file" name="avatar">
+    <label for="phone">What is your phone number?</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <input type="text" pattern="[a-z,A-Z,0-9]">
+        <br>
+        <input type="file" name="avatar">
+        <br>
+        <input type="number" name="num" min=0 max=10 step="2">
+        <br>
+        <input type="range" name="slide" min=0 max=10>
+        <br>
+        <input type="search" name="search_item">
+        <br>
+  </fieldset>
+          <legend>Data</legend>
+          Give me some data:
+          <ul>
+            <ul>
+              <label for="s1">*</label></<ul>
+                    <input type="radio" name="stars" value="1">
+          <li><label for="s2">**</label></li>
+          <input type="radio" name="stars" value="2">
+          <li><label for="s3">***</label></li>
+          <input type="radio" name="stars" value="3">
+          <li><label for="s4">****</label></li>
+         <input type="radio" name="stars" value="4">
+         <li><label for="s5">*****</label></li>
+        <input type="radio" name="stars" value="5">
+        </ul>
+        <br>
+        <label for="c1">Box 1</label>
+        <input type="checkbox" name="box1" value="Box 1">
+        <label for="c2">Box 2</label>
+        <input type="checkbox" name="box2" value="Box 2">
+        <label for="c3">Box 3</label>
+        <input type="checkbox" name="box3" value="Box 3">
+        <label for="c4">Box 4</label>
+        <input type="checkbox" name="box4" value="Box 4">
+        <br>
+        <label for="select">Select something</label>
+        <select name="select">
+        <option value="yes">yes</option>
+        <option value="maybe">maybe?</option>
+        <option value="no">no</option>
+        </select>
+      </fieldset>
+      <fieldset>
+      <legend>Thoughts?</legend>
+      <textarea name="thought" rows="8" cols="80" autofocus></textarea>
+          </fieldset>
+          <input type="submit"value="dew it!">
+          <input type="reset">
+      <input type="image" src="siv.jpgs" onclick="alert('Hi')">
+      <button type="button" id="standard">Fill in standard values</button>
+    </form>
+  </body>
+</html>
