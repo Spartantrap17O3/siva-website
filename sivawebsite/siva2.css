@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .p1{
   color: Red;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc5PGV-GK2hUPCbg4Vq6G4LIW8FgMf6mZ9CQ&usqp=CAU);
@@ -76,7 +76,7 @@
 }
 body {
   font-family: "Times New Roman", Times, serif;
-  background-image:url(https://nuames-cs.github.io/web-dev-Spartantrap1703/personal%20stuff/sivawebsite/pictures/sivabackgroundfinished.png);
+  background-image:url(sivawebsite\sivabackgroundfinished.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
