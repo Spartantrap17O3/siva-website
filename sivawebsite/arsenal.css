@@ -109,3 +109,11 @@ img {
 ul{
   list-style-type:none;
 }
+
+footer {
+  font-size: 12pt;
+  line-height:normal;
+  text-align: center;
+  padding-top: 30pt;
+  color: white;
+}
