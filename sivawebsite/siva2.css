@@ -144,7 +144,7 @@ button {
 background-color: #f44336; /* Red */
 border-radius: 50%;
 }
-=======
+
 
 .p1{
   color: Red;
@@ -291,4 +291,6 @@ button {
 background-color: #f44336; /* Red */
 border-radius: 50%;
 }
->>>>>>> ccfb20e6f2fe59bd1cd80c2a76ccf24a3a2df117
+.list {
+ padding: inherit;
+}

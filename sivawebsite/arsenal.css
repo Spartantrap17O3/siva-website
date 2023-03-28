@@ -117,3 +117,15 @@ footer {
   padding-top: 30pt;
   color: white;
 }
+.p1{
+  color: Red;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc5PGV-GK2hUPCbg4Vq6G4LIW8FgMf6mZ9CQ&usqp=CAU);
+  background-position: center;
+  background-origin: content-box;
+}
+.p2{
+  color: Red;
+  background-image: url(http://i.imgur.com/9VVpZAo.jpg);
+  background-position: center;
+  background-origin: content-box;
+}
