@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<meta http-equiv="refresh" content="30;URL=https://www.google.com">
+    <script type="text/javascript">
+      if (document.images) {
+        homebuttonup=new Image();
+        homebuttonup.src= "https://th.bing.com/th/id/OIP.AMJ0GsL0kmc18nFWyHN3-wHaEK?w=324&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7" ;
+        homebuttondow=new Image();
+        homebuttondown.src= "https://th.bing.com/th/id/OIP.0EBYo4xg2CE7oXDcdin4MgHaEK?w=324&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7";
+      }
+
+      function buttondown( buttonname){
+        if (document.images){
+          document[ buttonname ].src = eval( buttonname + "down.src" );
+        }
+      }
+
+      function buttonup ( buttonname ){
+        if (document.images) {
+          document[ buttonname ].src = eval( buttonname + "up.src");
+        }
+      }
+      function myFunction() {
+        document.getElementById("message").innerHTML="hello";
+      }
+    </script>
+
+  </head>
+  <body>
+
+    <a href="https://bit.ly/SIVA1703" onmouseover = "buttondown('homebutton')" onmouseout = "buttonup('homebutton')"><img src="https://th.bing.com/th/id/OIP.cWpz46Vtj0CFheprJPhQMAHaEK?w=291&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" name="homebutton" border="0" /></a>
+    <p id="demo"></p>
+    <script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+
+</script>
+<button onClick="myFunction()">Click me</button>
+<p id="message"></p>
+
+  </body>
+</html>
